@@ -63,14 +63,6 @@ transition: 0.15s ease-in-out;
     right: 20px;
 }
 #check{display: none;}
-.img-2{
-    background-image: url(./IMG-20230309-WA0003.jpg);
-    width: 120px;
-    height: 100px;
-    background-size: cover;
-    background-position: center;
-   
-}
 nav{
     position: relative;
     min-height: 100vh;
