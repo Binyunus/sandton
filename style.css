@@ -81,9 +81,6 @@ transition: 0.15s ease-in-out;
     top: 20px;
     right: 20px;
 }
-<<<<<<< HEAD
-#check{display: none;}
-=======
 
 
 #check{
@@ -91,7 +88,7 @@ transition: 0.15s ease-in-out;
 }
 
 
-/* .img-2{
+.img-2{
     background-image: url(./IMG-20230309-WA0003.jpg);
     width: 120px;
     height: 100px;
@@ -99,10 +96,9 @@ transition: 0.15s ease-in-out;
     background-position: center;
     float: right;
    
-} */
+}
 
 
->>>>>>> ca8a1ce7517d4d88545229ccf3bd0b88b806cc93
 nav{
     position: relative;
     min-height: 100vh;

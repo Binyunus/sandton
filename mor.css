@@ -18,7 +18,7 @@
         z-index: 100;
         background-color:black;
         transition: all 0.2s;
-        border-radius: ;
+        /* border-radius: ; */
     }
 
 
@@ -58,3 +58,4 @@
         position: relative;
         right: 9rem;
     }
+}
