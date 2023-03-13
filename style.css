@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
 
-.head-bar{
+.head-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,35 +15,34 @@
     padding: 12px 12px;
 }
 
-
-.fa-gas-pump{
+.fa-gas-pump {
     color: azure;
 }
 
 
-.can{
+.can {
     display: flex;
 }
 
 
-.can  li{
+.can li {
     padding-left: 30px;
 }
 
 
-.can  li a{
-display: inline-block;
-text-decoration: none;
-font-family: none;
-text-transform: uppercase;
-text-align: center;
-position: relative;
-color:orange;
-transition: 0.15s ease-in-out;
+.can li a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: none;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    color: rgb(255, 255, 255);
+    transition: 0.15s ease-in-out;
 }
 
 
-.can li a::after{
+.can li a::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -56,12 +55,13 @@ transition: 0.15s ease-in-out;
 }
 
 
-.can  li a:hover:after{
+.can li a:hover:after {
     width: 100%;
 }
 
 
-.open-menu , .close-menu{
+.open-menu,
+.close-menu {
     position: absolute;
     color: grey;
     cursor: pointer;
@@ -70,36 +70,36 @@ transition: 0.15s ease-in-out;
 }
 
 
-.open-menu{
+.open-menu {
     top: 50%;
     right: 20px;
     transform: translateY(-50);
 }
 
 
-.close-menu{
+.close-menu {
     top: 20px;
     right: 20px;
 }
 
 
-#check{
+#check {
     display: none;
 }
 
 
-.img-2{
+.img-2 {
     background-image: url(./IMG-20230309-WA0003.jpg);
     width: 120px;
     height: 100px;
     background-size: cover;
     background-position: center;
     float: right;
-   
+
 }
 
 
-nav{
+nav {
     position: relative;
     min-height: 100vh;
     padding: 50px 100px;
@@ -107,32 +107,32 @@ nav{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image:linear-gradient(rgb(235, 172, 54), transparent), url("./IMG-20230309-WA0004.jpg");
+    background-image: linear-gradient(rgb(235, 172, 54), transparent), url("./IMG-20230309-WA0004.jpg");
     background-position: center;
     background-size: cover;
 }
 
 
-.content{
+.content {
     max-width: 800px;
     text-align: center;
 }
 
 
-.content h2{
+.content h2 {
     font-size: 2rem;
     font-weight: 500;
-    color:white;
+    color: white;
 }
 
 
-.content p{
+.content p {
     font-weight: 300;
-    color:white;
+    color: white;
 }
 
 
-.inner-cot{
+.inner-cot {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -141,24 +141,24 @@ nav{
 }
 
 
-.infor{
+.infor {
     width: 50%;
     display: flex;
     flex-direction: column;
 }
 
 
-.infor .box{
+.infor .box {
     position: relative;
     padding: 20px 0;
     display: flex;
 }
 
 
-.infor .box .icon{
+.infor .box .icon {
     min-width: 50px;
     height: 50px;
-    background:#fff;
+    background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -167,7 +167,7 @@ nav{
 }
 
 
-.infor .box .text{
+.infor .box .text {
     display: flex;
     margin-left: 20px;
     font-size: 1.1rem;
@@ -177,35 +177,34 @@ nav{
 }
 
 
-.infor .box .text h3{
+.infor .box .text h3 {
     font-weight: 500;
-    color:black;
+    color: black;
 }
 
 
-.cot-fom{
+.cot-fom {
     width: 40%;
     padding: 40px;
     background-color: #fff;
 }
 
 
-.cot-fom h2{
+.cot-fom h2 {
     font-size: 2rem;
     color: #333;
     font-weight: 500;
 
 }
 
-
-.cot-fom .input-box{
+.cot-fom .input-box {
     position: relative;
     width: 100%;
     margin-top: 10px;
 }
 
-
-.cot-fom .input-box input,textarea {
+.cot-fom .input-box input,
+textarea {
     width: 100%;
     padding: 5px 0;
     font-size: 17px;
@@ -216,8 +215,7 @@ nav{
     resize: none;
 }
 
-
-.cot-fom .input-box span{
+.cot-fom .input-box span {
     position: absolute;
     left: 0;
     padding: 5px 0;
@@ -229,19 +227,14 @@ nav{
 
 }
 
-
-.cot-fom .input-box input:focus ~ span,
-.cot-fom .input-box input:valid ~ span,
-.cot-fom .input-box textarea:focus ~ span,
-.cot-fom .input-box textarea:valid ~ span
-{
-
-
+.cot-fom .input-box input:focus~span,
+.cot-fom .input-box input:valid~span,
+.cot-fom .input-box textarea:focus~span,
+.cot-fom .input-box textarea:valid~span {
     color: #e91e63;
     font-size: 12px;
     transform: translateY(-20px);
 }
-
 
 .input-box input[type="submit"] {
     width: 100px;
@@ -251,7 +244,3 @@ nav{
     padding: 10px;
     font-size: 18px;
 }
-
-
-
-
